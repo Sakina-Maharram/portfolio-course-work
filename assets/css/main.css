@@ -39,6 +39,7 @@ color: black;
     font-weight: 700;
     font-size: 72px;
     text-align: left;
+    
 }
 .blog-text p{
 font-size: 22px;
@@ -46,6 +47,7 @@ font-weight: 400;
 text-align: left;
 color: #666666;
 padding: 34px 0px;
+
 }
 .btn{
 height: 58px;
@@ -62,13 +64,57 @@ background: #000;
 .btn a{
     color: white;
    }
-
-
-
-
-
-
-
+.blog-2{
+    padding: 30px;
+}
+.text{
+    text-align: center;
+    padding: 45px;
+}
+.text-img{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.text-img img{
+     width: 140px;
+    height: 40px;
+}
+/* overlay menunun yaradilmasi */
+.overlay{
+    background-color: rgba(0,0,0,.7);
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+}
+.overlay .nav-links{
+   
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.overlay .nav-links a{
+     color: rgba(255, 255, 255, 0.482);
+     margin-bottom: 10px;
+     font-size: 34px;
+     transition: all 1.4s ease;
+}
+.overlay .nav-links a:hover{
+    color: white;
+    transform: translateX(70px);
+}
+.fa-xmark{
+    position:absolute;
+    color:white ;
+    right: 45px;
+    top: 45px;
+    font-size: 34px;
+}
 
 @media(max-width:788px){
     .header{
@@ -77,7 +123,7 @@ background: #000;
     .fa-bars-staggered{
         display: flex;
     }
-    .nav-links{
+    header .nav-links{
         display: none;
     }
 }
