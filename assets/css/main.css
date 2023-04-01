@@ -6,6 +6,10 @@
 body{
     font-family:  'Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 
 .header{
     display: flex;
@@ -21,6 +25,51 @@ color: black;
 .fa-bars-staggered{
     display: none;
 }
+.blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 82px 112px 0;
+    align-items: center;
+}
+.blog-text h1 span{
+    font-size: 72px;
+    color:  #FF8A56;
+}
+.blog-text h1{
+    font-weight: 700;
+    font-size: 72px;
+    text-align: left;
+}
+.blog-text p{
+font-size: 22px;
+font-weight: 400;
+text-align: left;
+color: #666666;
+padding: 34px 0px;
+}
+.btn{
+height: 58px;
+width: 151px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-top: 20px;
+margin-right: 40px;
+padding: 17px 30px 23px;
+background: #000;
+
+}
+.btn a{
+    color: white;
+   }
+
+
+
+
+
+
+
+
 @media(max-width:788px){
     .header{
         padding: 41px 40px 0;
