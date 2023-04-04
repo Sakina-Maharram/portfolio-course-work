@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+*{
+    outline: 1px solid rebeccapurple;
+}
 body{
     font-family:  'Roboto', sans-serif;
 }
@@ -22,26 +25,38 @@ text-decoration: none;
 padding-right: 5px;
 color: black;
 }
+.nav-links a:hover{
+    color:#FF8A56;
+}
 .fa-bars-staggered{
     display: none;
 }
-.blog{
+.introduction{
     display: flex;
     justify-content: space-between;
     padding: 82px 112px 0;
     align-items: center;
+    flex-wrap: wrap;
 }
-.blog-text h1 span{
+.intro-left-side h1 span{
     font-size: 72px;
     color:  #FF8A56;
 }
-.blog-text h1{
+.intro-left-side h1{
     font-weight: 700;
-    font-size: 72px;
+    font-size: 4.5rem;
     text-align: left;
+    min-width: 600px;
     
 }
-.blog-text p{
+.intro-right-side{
+    padding-top: 70px;
+    min-width: 400px;
+}
+.intro-right-side img{
+    width: 100%;
+}
+.introduction p{
 font-size: 22px;
 font-weight: 400;
 text-align: left;
@@ -70,9 +85,10 @@ background: #000;
 .text{
     text-align: center;
     padding: 45px;
+    
 }
 .text-img{
-   
+   flex-wrap: wrap;
     display: flex;
     justify-content: center;
     flex-direction: row;
