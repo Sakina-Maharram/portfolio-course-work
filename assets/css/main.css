@@ -1,8 +1,5 @@
 @import url(./reset.css);
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
 *{
     outline: 1px solid rebeccapurple;
 }
@@ -12,91 +9,6 @@ body{
 a{
     text-decoration: none;
     color: #000;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 41px 112.5px 0;
-}
-.nav-links a{
-text-decoration: none;
-padding-right: 5px;
-color: black;
-}
-.nav-links a:hover{
-    color:#FF8A56;
-}
-.fa-bars-staggered{
-    display: none;
-}
-.introduction{
-    display: flex;
-    justify-content: space-between;
-    padding: 82px 112px 0;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.intro-left-side h1 span{
-    font-size: 72px;
-    color:  #FF8A56;
-}
-.intro-left-side h1{
-    font-weight: 700;
-    font-size: 4.5rem;
-    text-align: left;
-    min-width: 600px;
-    
-}
-.intro-right-side{
-    padding-top: 70px;
-    min-width: 400px;
-}
-.intro-right-side img{
-    width: 100%;
-}
-.introduction p{
-font-size: 22px;
-font-weight: 400;
-text-align: left;
-color: #666666;
-padding: 34px 0px;
-
-}
-.btn{
-height: 58px;
-width: 151px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-margin-top: 20px;
-margin-right: 40px;
-padding: 17px 30px 23px;
-background: #000;
-
-}
-.btn a{
-    color: #fff;
-   }
-.blog-2{
-    padding: 30px;
-}
-.text{
-    text-align: center;
-    padding: 45px;
-    
-}
-.text-img{
-   flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    column-gap: 100px;
-}
-.text-img img{
-     width: 140px;
-    height: 40px;
 }
 /* overlay menunun yaradilmasi */
 .overlay{
@@ -131,6 +43,122 @@ background: #000;
     top: 45px;
     font-size: 34px;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 112.5px 0;
+}
+.nav-links a{
+text-decoration: none;
+padding-right: 5px;
+color: black;
+}
+.nav-links a:hover{
+    color:#FF8A56;
+}
+.fa-bars-staggered{
+    display: none;
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    padding: 82px 112px 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intro-left-side h1 span{
+    font-size: 72px;
+    color:  #FF8A56;
+}
+.intro-left-side h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+    text-align: left;
+    min-width: 600px;
+}
+.intro-right-side{
+    padding-top: 70px;
+    min-width: 400px;
+}
+.intro-right-side img{
+    width: 100%;
+}
+.introduction p{
+font-size: 22px;
+font-weight: 400;
+text-align: left;
+color: #666666;
+padding: 34px 0px;
+}
+.btn{
+height: 58px;
+width: 151px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-top: 20px;
+margin-right: 40px;
+padding: 17px 30px 23px;
+background: #000;
+}
+.btn a{
+    color: #fff;
+}
+.trusted{
+    padding: 30px;
+}
+.trusted-text{
+    text-align: center;
+    padding: 45px;
+}
+.trusted-img{
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.trusted-img img{
+     width: 140px;
+    height: 40px;
+}
+.service-product{
+    text-align: center;
+    padding: 0 336px;
+}
+.service-product h2{
+padding: 0 0 20px;
+font-size: 22px;
+font-weight: 700;
+color: #FF5E69;
+
+}
+.service-product p{
+    font-size: 54px;
+    font-weight: 700;
+}
+.news{
+    padding: 118px 171px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media(max-width:788px){
     .header{
