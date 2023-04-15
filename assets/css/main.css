@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     outline: 1px solid rebeccapurple;
-}
+} 
 body{
     font-family:  'Roboto', sans-serif;
 }
@@ -68,7 +68,7 @@ color: black;
     flex-wrap: wrap;
 }
 .intro-left-side h1 span{
-    font-size: 72px;
+    font-size: 4.5rem;
     color:  #FF8A56;
 }
 .intro-left-side h1{
@@ -77,13 +77,6 @@ color: black;
     text-align: left;
     min-width: 600px;
 }
-.intro-right-side{
-    padding-top: 70px;
-    min-width: 400px;
-}
-.intro-right-side img{
-    width: 100%;
-}
 .introduction p{
 font-size: 22px;
 font-weight: 400;
@@ -91,6 +84,14 @@ text-align: left;
 color: #666666;
 padding: 34px 0px;
 }
+.intro-right-side{
+    padding-top: 70px;
+    min-width: 400px;
+}
+.intro-right-side img{
+    width: 100%;
+}
+
 .btn{
 height: 58px;
 width: 151px;
@@ -104,6 +105,10 @@ background: #000;
 }
 .btn a{
     color: #fff;
+}
+.btn:hover{
+   background: #FF8A56;
+   border-color:white ;
 }
 .trusted{
     padding: 30px;
